@@ -1,0 +1,214 @@
+.row {
+    border: none;
+    /*overflow: auto;*/
+}
+
+.row:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+[class^='col-'] {
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.col-md-1 {
+    width: calc( 100% * 12 / 12);
+}
+
+.col-md-3 {
+    width: calc( 100% * 3 / 12);
+}
+
+.col-md-4 {
+    float: left;
+    width: calc(100% *4 / 12);
+}
+
+.col-md-6 {
+    float: left;
+    width: calc(100% *6 / 12);
+}
+
+
+/* general */
+
+
+/* primary: orange */
+
+h2 {
+    color: goldenrod;
+}
+
+h6 {
+    color: white;
+}
+
+body {
+    padding-top: 50px;
+}
+
+h1,
+h3,
+h5,
+p,
+a,
+span {
+    color: #333;
+}
+
+body {
+    padding-top: 50px;
+}
+
+.paragraph {
+    text-align: justify;
+}
+
+
+/* navbar */
+
+.navbar {
+    width: 100%;
+    height: 50px;
+    background-color: goldenrod;
+    opacity: 0.9;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 200;
+}
+
+.navbar-header {
+    margin-top: 0;
+    float: left;
+    height: 40px;
+    line-height: 50px;
+}
+
+.navbar-list {
+    float: right;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-brand,
+.navbar-list>li {
+    float: left;
+    height: 40px;
+    line-height: 50px;
+    margin: 10px;
+}
+
+.navbar-brand,
+.navbar-list>li>a {
+    color: white;
+    text-decoration: none;
+}
+
+.signature {
+    height: 40px;
+}
+
+
+/* header */
+
+header {
+    background-color: #ccc;
+    padding: 50px;
+    margin: 0 auto;
+    display: block;
+}
+
+.backgroundimg {
+    width: 100%;
+    float: left;
+    z-index: 500;
+}
+
+.header-img {
+    width: 200px;
+    border-radius: 50%;
+    z-index: 100;
+    position: relative;
+}
+
+.Name {
+    width: 300px;
+}
+
+
+/* introSeciton */
+
+#introSection {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.icon {
+    color: darkgrey;
+}
+
+.carousel .item {
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 150px;
+}
+
+.carousel.item>h4 {
+    color: goldenrod;
+    text-align: left;
+}
+
+.item:nth-child(1) {
+    background: goldenrod;
+    background-image: url(../img/pub/2014MCP.png);
+    background-size: auto 280px;
+}
+
+.item:nth-child(2) {
+    background: goldenrod;
+    background-image: url(../img/pub/2014MCP.png);
+    background-size: auto 280px;
+}
+
+.item:nth-child(3) {
+    background: goldenrod;
+    background-image: url(../img/pub/2013TaiwanJObstetGynecol.png);
+    background-size: auto 280px;
+}
+
+.item:nth-child(4) {
+    background: goldenrod;
+    background-image: url(../img/pub/2012TaiwanJObstetGynecol.png);
+    background-size: auto 280px;
+}
+
+.item:nth-child(5) {
+    background: goldenrod;
+    background-image: url(../img/pub/2011JChinMedAssoc.png);
+    background-size: auto 280px;
+}
+
+
+/* footer */
+
+footer {
+    background: goldenrod;
+    padding: 80px 0;
+    text-align: center;
+    color: white;
+    /* 受限於前面 h1,h2....一起已經綁定設定而無法設成白色,須額外指定fotter之下的h1,參下方 */
+}
+
+footer>h1 {
+    color: white;
+}
+
+.clear {
+    clear: left;
+}
